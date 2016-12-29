@@ -1,0 +1,30 @@
+.dialog {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+  .dialog:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    border: 10px solid transparent;
+    border-top-color: black;
+    border-right-color: black;
+  }
+
+.ramen {
+  image-rendering: pixelated;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  background: url(../img/sprite.png) no-repeat;
+  transform: scale(3);
+}
